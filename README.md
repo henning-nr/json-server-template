@@ -56,6 +56,15 @@ While your server is running, you can make requests to
 [http://localhost:3000](http://localhost:3000). Check it out in the browser to
 make sure your server works!
 
+## Routes
+
+GET    /products  -> get all products
+GET    /products/1 -> get product by id
+POST   /products -> create a new product
+PUT    /products/1 -> update all product field
+PATCH  /products/1 -> update one of the product field
+DELETE /products/1 -> delete a product
+
 ## Deploying
 
 Free services like Render make it simple to deploy your Node server. Render also
